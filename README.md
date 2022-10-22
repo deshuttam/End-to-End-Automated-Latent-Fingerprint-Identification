@@ -25,3 +25,24 @@ Further processing is carried out using FFT enhancement ﬁlters.
 ## AUTOMATED MINUTIAE EXTRACTION AND MATCHING
 Minutiae present in the gallery ﬁngerprints are extracted and stored as a set of minutiae belonging to a particular ﬁngerprint with the ﬁngerprint ids. For a query ﬁngerprint our proposed minutiae extractor performs ﬁngerprint alignment to retrieve minutiae pairings between both the ﬁngerprints. Our proposed matcher computes the similarity between the query and gallery ﬁngerprints, searches the top 20 similar ﬁngerprints, and ﬁnally outputs the candidate list based on the match score. 
 
+
+The repository includes:
+* Source code for FingerNet 
+* Training code 
+* Pre-trained weights 
+* Jupyter notebooks
+* Source code for FFT enhancement
+* Source code for matching
+* Matlab code
+
+### Citing
+@ARTICLE{10.3389/frobt.2020.594412,
+AUTHOR={Deshpande, Uttam U. and Malemath, V. S. and Patil, Shivanand M. and Chaugule, Sushma V.},   
+TITLE={End-to-End Automated Latent Fingerprint Identification With Improved DCNN-FFT Enhancement},      
+JOURNAL={Frontiers in Robotics and AI},      
+VOLUME={7},           
+YEAR={2020},        
+URL={https://www.frontiersin.org/articles/10.3389/frobt.2020.594412},       
+DOI={10.3389/frobt.2020.594412},      
+ISSN={2296-9144},
+}

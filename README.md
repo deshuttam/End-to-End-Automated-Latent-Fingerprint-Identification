@@ -42,7 +42,9 @@ TITLE={End-to-End Automated Latent Fingerprint Identification With Improved DCNN
 JOURNAL={Frontiers in Robotics and AI},      
 VOLUME={7},           
 YEAR={2020},        
-URL={https://www.frontiersin.org/articles/10.3389/frobt.2020.594412},       
+URL={ https://www.frontiersin.org/articles/10.3389/frobt.2020.594412 },       
 DOI={10.3389/frobt.2020.594412},      
 ISSN={2296-9144},
 }
+
+

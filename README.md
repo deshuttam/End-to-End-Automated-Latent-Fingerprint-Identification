@@ -134,8 +134,9 @@ GPU: Titan, Titan Black, Titan X, K20, K40, K80.
 
 
 ##  FFT enhancement
-Run Finger_Enhance_FingerNet.m matlab code by placing images in respective folder
+Run Finger_Enhance_FingerNet.m matlab code by placing images in temp folder of Enhancement directory.
 
 ##  Matching
-Run main_total.m matlab code by placing enhanced images in matching folder
+* Run main_total.m matlab code by placing enhanced images in temp folder of Matching directory.
+* Specify file name to be matched in main_total.m file (ex: filename='101_1.bmp')
 

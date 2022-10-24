@@ -137,5 +137,5 @@ GPU: Titan, Titan Black, Titan X, K20, K40, K80.
 Run Finger_Enhance_FingerNet.m matlab code by placing images in respective folder
 
 ##  Matching
-Run main_total.m matlab code by placing enhanced images in respective folder
+Run main_total_NIST_original.m matlab code by placing enhanced images in respective folder
 

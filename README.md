@@ -7,7 +7,8 @@ By Uttam Deshpande et. al.,
 
 
 
-An end-to-end ﬁngerprint matching system to automatically enhance, extract minutiae, and produce matching results with the help of “Automated Deep Convolutional Neural Network (DCNN)” and “Fast Fourier Transform (FFT)” ﬁlters. To refer to this paper: https://www.frontiersin.org/articles/10.3389/frobt.2020.594412/full
+An end-to-end ﬁngerprint matching system to automatically enhance, extract minutiae, and produce matching results with the help of “Automated Deep Convolutional Neural Network (DCNN)” and “Fast Fourier Transform (FFT)” ﬁlters. 
+To refer to this paper: https://www.frontiersin.org/articles/10.3389/frobt.2020.594412/full
 
 ## Introduction
 We have presented an end-to-end ﬁngerprint matching system to automatically enhance, extract minutiae, and produce matching results. To automatically enhance the poor-quality ﬁngerprint images we utilise the automated "Deep Convolutional Neural Network (DCNN)” and “Fast Fourier Transform (FFT)” ﬁlters. The Deep Convolutional Neural Network (DCNN) produces a frequency enhanced map from ﬁngerprint domain knowledge. A “FFT Enhancement” algorithm enhances and extracts the ridges from the frequency enhanced map. Minutiae from the enhanced ridges are automatically extracted using a proposed “Automated Latent Minutiae Extractor (ALME)”. Based on the extracted minutiae, the ﬁngerprints are automatically aligned, and a matching score is calculated using a proposed “Frequency Enhanced Minutiae Matcher (FEMM)” algorithm. 

@@ -1,5 +1,5 @@
 
-function [newim, binim, mask, reliability] =  testfin(im,filename)
+function [newim, binim, mask, reliability] =  testfin_NIST(im,filename)
     
     %if nargin == 0
 	%im = imread('finger.png');

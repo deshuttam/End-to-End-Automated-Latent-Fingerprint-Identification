@@ -127,6 +127,7 @@ GPU: Titan, Titan Black, Titan X, K20, K40, K80.
     - **Note**: Maximum epoch is set to 100. Early stop if model have converged.
 
 ### Testing
+* To test the enhancement output of the images we have placed test images in `FingerNet/datasets/NISTSD27` folder. Observe the output in `output` folder
 
 0. Run `python train_test_deploy.py 0 test` to test your model.
     - Different from Predicting, Testing requires datasets to have at least mnt labels and segmentation labels. 
@@ -134,9 +135,9 @@ GPU: Titan, Titan Black, Titan X, K20, K40, K80.
 
 
 ##  FFT enhancement
-Run Finger_Enhance_FingerNet.m matlab code by placing images in temp folder of Enhancement directory.
+Run `Finger_Enhance_FingerNet.m` matlab code by placing images in `temp` folder of Enhancement directory.
 
 ##  Matching
-* Run main_total.m matlab code by placing enhanced images in temp folder of Matching directory.
-* Specify file name to be matched in main_total.m file (ex: filename='101_1.bmp')
+* Run `main_total.m` matlab code by placing enhanced images in `temp` folder of Matching directory.
+* Specify file name to be matched in `main_total.m` file (ex: filename='101_1.bmp')
 
